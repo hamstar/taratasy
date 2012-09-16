@@ -279,7 +279,6 @@ input[type=text] {
 .quick_tools {
 	float: left;
 	margin-right: 20px;
-	clear: none;
 }
 
 .quick_tools ul {
@@ -297,4 +296,11 @@ input[type=text] {
 .quick_tools li img {
 	width: 30px;
 	margin-top: 5px;
+}
+
+.breadcrumbs .login_details {
+	float: right;
+	text-align: right;
+	margin-right: 20px;
+	font-weight: bold;
 }
