@@ -21,7 +21,7 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && $_SERVER
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title><?php tpl_pagetitle() ?> [<?php echo strip_tags($conf['title']) ?>]</title>
+    <title><?php tpl_pagetitle() ?> | <?php echo strip_tags($conf['title']) ?></title>
     <?php tpl_metaheaders() ?>
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
