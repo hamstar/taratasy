@@ -128,10 +128,12 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && $_SERVER
                 <?php _tpl_include('pageheader.html') ?>
 
                 <div class="page">
+                    <h1 class="title"><?php tpl_pagetitle() ?></h1>
                     <!-- wikipage start -->
                     <?php tpl_content() /* the main content */ ?>
                     <!-- wikipage stop -->
                     <div class="clearer"></div>
+                    <div class="doc"><?php tpl_pageinfo() /* 'Last modified' etc */ ?></div>
                 </div>
 
                 <?php tpl_flush() ?>
@@ -162,7 +164,6 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && $_SERVER
 
         <!-- ********** FOOTER ********** -->
         <div id="dokuwiki__footer"><div class="pad">
-            <div class="doc"><?php tpl_pageinfo() /* 'Last modified' etc */ ?></div>
             <?php tpl_license('button') /* content license, parameters: img=*badge|button|0, imgonly=*0|1, return=*0|1 */ ?>
         </div></div><!-- /footer -->
 

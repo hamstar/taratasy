@@ -146,10 +146,10 @@ input[type=text] {
 #dokuwiki__header div.breadcrumbs a {
 	font-style: italic;
 }
-#dokuwiki__footer .doc {
+.page .doc {
+	color: #c0c0c0;
 	float: right;
 	font-size: 75%;
-	font-style: italic;
 	padding-right: 1em;
 }
 /* TOOLS */
@@ -262,4 +262,8 @@ input[type=text] {
 	margin: 0.7em auto;
 	max-width: __site_width__;
 	padding: 0 1em;
+}
+
+.page h1.title {
+	color: #486896;
 }
