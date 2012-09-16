@@ -64,7 +64,7 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && $_SERVER
                     <ul>
                         <li>
                             <a href="javascript:void(0);" id="add_page" title="Add a new page">
-                                <img src="http://cdn1.iconfinder.com/data/icons/oxygen/32x32/actions/document-new.png" alt="add a new page"/>
+                                <img src="<?php echo DOKU_TPL."images/addpage.png"; ?>" alt="add a new page"/>
                             </a>
                         </li>
                     </ul>
