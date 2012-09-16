@@ -58,6 +58,18 @@ $showTools = !tpl_getConf('hideTools') || ( tpl_getConf('hideTools') && $_SERVER
                     <div class="clearer"></div>
                 </div>
 
+                <div class="quick_tools">
+
+                    <!-- QUICK TOOLS -->
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" id="add_page" title="Add a new page">
+                                <img src="http://cdn1.iconfinder.com/data/icons/oxygen/32x32/actions/document-new.png" alt="add a new page"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
                 <?php tpl_searchform() ?>
 
                 <div class="tools">

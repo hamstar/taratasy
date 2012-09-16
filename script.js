@@ -18,7 +18,19 @@ var tpl_taratasy = (function() {
      * initialize everything
      */
     pub.init = function() {
+        jQuery("#add_page").click( function() {
+            
+            if ( !(name = prompt("Enter the page name")) )
+                return false;
 
+            if ( name == "" )
+                return false;
+
+            if ( name == null )
+                return false;
+
+            location.href = "/doku.php?id="+name+"&do=edit";
+        });
     };
 
     // return only public methods/properties

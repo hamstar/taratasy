@@ -275,3 +275,26 @@ input[type=text] {
 #dokuwiki__footer a {
     color: gray;
 }
+
+.quick_tools {
+	float: left;
+	margin-right: 20px;
+	clear: none;
+}
+
+.quick_tools ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.quick_tools li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: inline;
+}
+
+.quick_tools li img {
+	width: 30px;
+	margin-top: 5px;
+}
