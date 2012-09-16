@@ -267,3 +267,11 @@ input[type=text] {
 .page h1.title {
 	color: #486896;
 }
+
+#dokuwiki__footer {
+    color: #c0c0c0;
+}
+
+#dokuwiki__footer a {
+    color: gray;
+}
